@@ -1,0 +1,142 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 255, 243);
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(207, 13, 13);
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0px 0px 10px grey;
+    
+}
+
+header ul{
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+
+.opcao:hover{
+    color:grey;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.banner__imagem{
+    margin: 20px;
+    width: 70%;
+    height: 20%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+main {
+    width: 100%; 
+    padding: 20px; 
+  }
+  
+
+main h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cards{
+    margin: 0 0 0 10%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    margin: 20px;
+
+}
+
+.card__titulo{
+    text-align: center;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 28px;
+
+}
+
+.card__imagem{
+    margin: 10px;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.card__paragrafo{
+    margin: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.card__botao{
+    padding: 10px;
+    margin: 20px;
+    background-color:rgb(207, 13, 13);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey;
+    font-family:'Newsreader', serif;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+
+}
+
+.card__botao:hover{
+    background-color: rgb(221, 146, 146);
+
+}
+
+footer{
+     width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__copyright{
+    margin: 50px;
+}
+
+.footer__contato{
+    display: flex;
+    align-items: flex-end;
+    margin: 50px;
+    gap: 20px;
+    font-size: 18px;
+}
